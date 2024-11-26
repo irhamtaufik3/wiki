@@ -5,21 +5,21 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Maouam Node Lab',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://blog.irhamnet.my.id',
 			},
 			sidebar: [
 				{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Read Me', slug: 'guides/example' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Glacier Node',
+					autogenerate: { directory: 'glacier' },
 				},
 			],
 		}),

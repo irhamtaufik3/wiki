@@ -1,11 +1,15 @@
 ---
-title: Example Guide
-description: A guide in my new Starlight docs site.
+title: Maouam Node Lab
+description: Panduan Install Node Airdrop.
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+Dokumentasi ini digunakan untuk para node airdrop hunter. Semoga kita semua bisa terus sama-sama belajar.
+Semangat, salam JP :D
 
-## Further reading
+## My Blog
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+- Read [My Blog](https://blog.irhamnet.my.id) visit it.
+
+## Join my Discord
+
+- Click it [Discord](https://discord.gg/q5a74BHcS5)
