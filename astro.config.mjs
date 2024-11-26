@@ -21,6 +21,10 @@ export default defineConfig({
 					label: 'Glacier Node',
 					autogenerate: { directory: 'glacier' },
 				},
+				{
+					label: 'Multiple Network',
+					autogenerate: { directory: 'multiple-network' },
+				},
 			],
 		}),
 	],

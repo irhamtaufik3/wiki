@@ -5,7 +5,7 @@ template: splash
 hero:
   tagline: Keep learning by doing!
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/logo.png
   actions:
     - text: All Tutor Node
       link: /guides/example/
@@ -18,19 +18,19 @@ hero:
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Welcome!
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Join My Discord" icon="pencil">
+		<a href="https://discord.gg/q5a74BHcS5" target="_blank" rel="noopener noreferrer">Come on for join</a>
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="My Website" icon="add-document">
+		<a href="https://blog.irhamnet.my.id" target="_blank" rel="noopener noreferrer">Click My Blog</a>
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="Tutor All Node" icon="setting">
+		<a href="/guides/example" target="_blank" rel="noopener noreferrer">Click Tutor All Node</a>
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Build this web" icon="open-book">
+	 	<a href="https://starlight.astro.build" target="_blank" rel="noopener noreferrer">starlight.astro.build</a>
 	</Card>
 </CardGrid>
