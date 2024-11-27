@@ -17,7 +17,7 @@ Note: Node ini hanya bisa di run bagi yang menerima email dari pipe network.
 
 ```
 sudo su
-apt update && apt instal curl -y
+apt update && apt install curl -y
 ```
 </br>
 
