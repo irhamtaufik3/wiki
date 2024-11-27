@@ -29,6 +29,10 @@ export default defineConfig({
 					label: 'Multiple Network',
 					autogenerate: { directory: 'multiple-network' },
 				},
+				{
+					label: 'Cysic',
+					autogenerate: { directory: 'cysic' },
+				},
 				
 			],
 		}),
