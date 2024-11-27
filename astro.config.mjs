@@ -18,6 +18,10 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Pipe Network',
+					autogenerate: { directory: 'pipe-network' },
+				},
+				{
 					label: 'Glacier Node',
 					autogenerate: { directory: 'glacier' },
 				},
@@ -25,6 +29,7 @@ export default defineConfig({
 					label: 'Multiple Network',
 					autogenerate: { directory: 'multiple-network' },
 				},
+				
 			],
 		}),
 	],
