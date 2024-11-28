@@ -33,6 +33,10 @@ export default defineConfig({
 					label: 'Cysic',
 					autogenerate: { directory: 'cysic' },
 				},
+				{
+					label: 'T3RN',
+					autogenerate: { directory: 't3rn' },
+				},
 				
 			],
 		}),

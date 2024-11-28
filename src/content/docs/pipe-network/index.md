@@ -5,9 +5,9 @@ description: Guide install node pipe network
 
 ## System Specs
 | Hardware  |	Requirement |
-|-----------|---------------|
-| CPU	      | 1 Cores     |
-| RAM	      | 2 GB        |
+|-----------|--------------|
+| CPU	      | 1 Cores      |
+| RAM	      | 2 GB         |
 
 Note: Node ini hanya bisa di run bagi yang menerima email dari pipe network.
 

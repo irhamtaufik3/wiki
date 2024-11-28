@@ -4,11 +4,12 @@ description: Guide for install node cysic
 ---
 
 ## System Specs
-| Hardware  |	Requirement |
+| Hardware  |	Requirement  |
 |-----------|---------------|
-| CPU	    | 1 Cores       |
-| RAM	    | 512 MB        |
-| Disk      | 1 GB          |
+| CPU	      | 1 Cores       |
+| RAM	      | 8 GB          |
+| Disk      | 512 MB        |
+| Bandwidth | 100KB/s u/d   |
 
 ## Prepare Before Install Node
 1. Buat wallet baru di metamask atau di OKX
