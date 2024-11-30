@@ -79,4 +79,13 @@ sudo journalctl -f -u dcdnd.service
 DONE
 
 ## Check Status Node
-<a href="https://devnet1.pipecdn.app/" target="_blank" rel="noopener noreferrer">devnet1.pipecdn.app</a>
+
+```
+/opt/dcdn/pipe-tool list-nodes --node-registry-url="https://rpc.pipedev.network"
+```
+</br>
+
+<a href="https://devnet1.pipecdn.app/" target="_blank" rel="noopener noreferrer">devnet1.pipecdn.app</a> 
+
+## Referensi
+<a href="https://docs.pipe.network/getting-started/quickstart#join-the-devnet" target="_blank" rel="noopener noreferrer">docs.pipe.network/getting-started/quickstart#join-the-devnet</a> 

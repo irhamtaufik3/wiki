@@ -204,6 +204,13 @@ DONE
 
 
 ## Check Status Node
+
+```
+/opt/dcdn/pipe-tool list-nodes --node-registry-url="https://rpc.pipedev.network"
+```
+
+</br>
+
 <a href="https://devnet1.pipecdn.app/" target="_blank" rel="noopener noreferrer">devnet1.pipecdn.app</a> 
 
 ## Referensi

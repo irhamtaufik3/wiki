@@ -37,6 +37,10 @@ export default defineConfig({
 					label: 'T3RN',
 					autogenerate: { directory: 't3rn' },
 				},
+				{
+					label: 'hemi',
+					autogenerate: { directory: 'hemi' },
+				},
 				
 			],
 		}),
