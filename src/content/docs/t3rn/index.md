@@ -4,10 +4,10 @@ description: Guide install node t3rn
 ---
 
 ## System Specs
-| Hardware    |	Requirement  |
+| Hardware    |	Requirement|
 |-------------|--------------|
-| CPU	      | 2 Cores      |
-| RAM	      | 4 GB         |
+| CPU	        | 2 Cores      |
+| RAM	        | 4 GB         |
 
 
 ## Prepare Before Install Node
@@ -16,7 +16,7 @@ description: Guide install node t3rn
  -  <a href="https://bridge.arbitrum.io/?destinationChain=arbitrum-sepolia&sourceChain=sepolia" target="_blank" rel="noopener noreferrer">bridge.arbitrum.io/?destinationChain=arbitrum-sepolia&sourceChain=sepolia</a>  
  -  <a href="https://superbridge.app/" target="_blank" rel="noopener noreferrer">superbridge.app/</a>
 
-## Install Node/executor T3RN v0.24.1
+## Install Node/executor T3RN v0.26.0
 1. Update Paket dan Install curl, tmux, wget
 
 ```
@@ -28,14 +28,14 @@ apt update && apt install curl tmux wget -y
 2. Download file node/executor
 
 ```
-wget https://github.com/t3rn/executor-release/releases/download/v0.24.1/executor-linux-v0.24.1.tar.gz
+wget https://github.com/t3rn/executor-release/releases/download/v0.26.0/executor-linux-v0.26.0.tar.gz
 ```
 </br>
 
 3. Ekstrak file
 
 ```
-tar -xvzf executor-linux-v0.24.1.tar.gz
+tar -xvzf executor-linux-v0.26.0.tar.gz
 ```
 </br>
 
