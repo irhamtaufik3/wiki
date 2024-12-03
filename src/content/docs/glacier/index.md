@@ -23,7 +23,7 @@ description: Guide for install node glacier
    <a href="https://opbnb-testnet-bridge.bnbchain.org/deposit" target="_blank" rel="noopener noreferrer">opbnb-testnet-bridge.bnbchain.org/deposit</a>
 
 
-## Install Node Glacier on Ubuntu-Linux
+## Install Node Glacier v0.0.3-beta on Ubuntu-Linux
 1. Update paket dan install git wget tmux
 
 ```
@@ -34,7 +34,7 @@ apt update && apt install git wget tmux -y
 2. Buat folder glacier & Download file node (copy paste saja)
 
 ```
-mkdir glacier && cd glacier && wget https://github.com/Glacier-Labs/node-bootstrap/releases/download/v0.0.1-beta/verifier_linux_amd64 && wget https://glacier-labs.github.io/node-bootstrap/config.yaml
+mkdir glacier && cd glacier && wget https://github.com/Glacier-Labs/node-bootstrap/releases/download/v0.0.3-beta/verifier_linux_amd64 && wget https://glacier-labs.github.io/node-bootstrap/config.yaml
 ```
 </br>
 
