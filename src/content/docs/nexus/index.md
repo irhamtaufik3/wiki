@@ -67,7 +67,7 @@ curl https://cli.nexus.xyz/ | sh
 ```
 </br>
 
-9. Jika ingin input prover-id dari web, silahkan stop node dulu  
+9. Jika prover-id tidak bisa/tidak ada di input dan ingin input prover-id dari web, silahkan stop node dulu  
    ctrl c
 </br>
 
