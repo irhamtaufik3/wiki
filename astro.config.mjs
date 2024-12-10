@@ -18,6 +18,10 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Nexus',
+					autogenerate: { directory: 'nexus' },
+				},
+				{
 					label: 'Pipe Network',
 					autogenerate: { directory: 'pipe-network' },
 				},
