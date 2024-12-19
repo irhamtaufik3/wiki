@@ -63,10 +63,10 @@ export ENABLED_NETWORKS='arbitrum-sepolia,base-sepolia,blast-sepolia,optimism-se
 ```
 </br>
 
-8. Setup gwei max price (bebas saran 50-100)
+8. Setup gwei max price (bebas saran 1-100)
 
 ```
-export EXECUTOR_MAX_L3_GAS_PRICE=100
+export EXECUTOR_MAX_L3_GAS_PRICE=10
 ```
 </br>
 
