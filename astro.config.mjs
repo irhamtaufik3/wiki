@@ -18,6 +18,10 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Cyberfly',
+					autogenerate: { directory: 'cyberfly' },
+				},
+				{
 					label: 'Nexus',
 					autogenerate: { directory: 'nexus' },
 				},
