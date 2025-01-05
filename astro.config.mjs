@@ -18,6 +18,10 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Dria',
+					autogenerate: { directory: 'dria' },
+				},
+				{
 					label: 'Cyberfly',
 					autogenerate: { directory: 'cyberfly' },
 				},
