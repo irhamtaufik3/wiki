@@ -104,3 +104,6 @@ curl -O https://gist.githubusercontent.com/NodeFarmer/6da2744044cd1aa37ce28a5112
 
 ## Cek status node
 <a href="https://testnet.openledger.xyz/dashboard" target="_blank" rel="noopener noreferrer">testnet.openledger.xyz/dashboard</a>
+
+</br>
+<i>Referensi for install open-ledger by cryptonodefarmer.</i>
