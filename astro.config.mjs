@@ -18,6 +18,10 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Open Ledger',
+					autogenerate: { directory: 'open-ledger' },
+				},
+				{
 					label: 'Dria',
 					autogenerate: { directory: 'dria' },
 				},
