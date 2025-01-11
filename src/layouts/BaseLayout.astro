@@ -1,0 +1,19 @@
+---
+const measurementId = "G-4WB2W24M31"; // Ganti dengan Measurement ID Anda
+---
+
+<html lang="en">
+  <head>
+    <title>Maouam Nodelab</title>
+    <script async src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{measurementId}');
+    </script>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
