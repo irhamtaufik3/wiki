@@ -89,3 +89,14 @@ DONE
 
 ## Referensi
 <a href="https://docs.pipe.network/getting-started/quickstart#join-the-devnet" target="_blank" rel="noopener noreferrer">docs.pipe.network/getting-started/quickstart#join-the-devnet</a> 
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4WB2W24M31"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-4WB2W24M31');
+</script>
+</head>

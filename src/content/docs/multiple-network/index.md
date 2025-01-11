@@ -85,3 +85,14 @@ DONE (Cek status di dashboard)
 
 Jangan lupa isi profile Anda  
     <a href="https://www.app.multiple.cc/#/setup" target="_blank" rel="noopener noreferrer">app.multiple.cc/#/setup</a>
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4WB2W24M31"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-4WB2W24M31');
+</script>
+</head>

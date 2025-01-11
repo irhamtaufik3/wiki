@@ -89,3 +89,14 @@ DONE (cek dashboard, tunggu node berjalan kurang lebih 1 jam)
 Funding: <a href="https://cryptorank.io/ico/glacier-network#funding-rounds" target="_blank" rel="noopener noreferrer">cryptorank.io/ico/glacier-network#funding-rounds</a>  
 DC glacier: <a href="https://discord.gg/eYAGGz5W3b" target="_blank" rel="noopener noreferrer">discord.gg/eYAGGz5W3b</a>  
 Incentive: <a href="https://docs.glacier.io/getting-started/glacier-nodes/run-testnet-nodes" target="_blank" rel="noopener noreferrer">docs.glacier.io/getting-started/glacier-nodes/run-testnet-nodes</a>
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4WB2W24M31"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-4WB2W24M31');
+</script>
+</head>

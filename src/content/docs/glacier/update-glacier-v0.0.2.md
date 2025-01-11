@@ -45,3 +45,14 @@ chmod +x ./verifier_linux_amd64
 
 6. DONE (Keluar dari tmux)  
    tekan ctrl, tahan terus, tekan b, lepas semua, lalu tekan d
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4WB2W24M31"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-4WB2W24M31');
+</script>
+</head>

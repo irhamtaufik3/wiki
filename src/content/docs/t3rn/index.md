@@ -93,3 +93,14 @@ tmux atatch -t t3rn
 
 -   <a href="https://bridge.t1rn.io/" target="_blank" rel="noopener noreferrer">bridge.t1rn.io/</a>  
 -   <a href="https://brn.explorer.caldera.xyz/" target="_blank" rel="noopener noreferrer">brn.explorer.caldera.xyz/</a>
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4WB2W24M31"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-4WB2W24M31');
+</script>
+</head>

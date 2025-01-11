@@ -107,3 +107,15 @@ curl -O https://gist.githubusercontent.com/NodeFarmer/6da2744044cd1aa37ce28a5112
 
 </br>
 <i>Referensi for install open-ledger by cryptonodefarmer.</i>
+
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4WB2W24M31"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-4WB2W24M31');
+</script>
+</head>

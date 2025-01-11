@@ -91,3 +91,14 @@ exit
 ## Check Status Node
 DONE (cek leaderboard Anda)  
 <a href="https://testnet.cysic.xyz/m/leadingboard" target="_blank" rel="noopener noreferrer">testnet.cysic.xyz/m/leadingboard</a>
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4WB2W24M31"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-4WB2W24M31');
+</script>
+</head>

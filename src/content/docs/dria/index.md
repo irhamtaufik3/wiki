@@ -84,3 +84,14 @@ tmux attach -t dria
 ## Check point (tunggu 2-3 hari)
 Gunakan wallet address untuk cek point  
 <a href="https://steps.leaderboard.dria.co/" target="_blank" rel="noopener noreferrer">steps.leaderboard.dria.co/</a>
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4WB2W24M31"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-4WB2W24M31');
+</script>
+</head>

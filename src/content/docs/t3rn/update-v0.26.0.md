@@ -79,3 +79,14 @@ export PRIVATE_KEY_LOCAL=privatekey_metamask_anda
 
 10. DONE (keluar dari tmux)  
     tekan ctrl, tahan terus lalu tekan b, lepas semua, tekan d
+
+    <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4WB2W24M31"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-4WB2W24M31');
+</script>
+</head>
