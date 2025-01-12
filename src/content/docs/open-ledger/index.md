@@ -106,6 +106,18 @@ curl -O https://gist.githubusercontent.com/NodeFarmer/6da2744044cd1aa37ce28a5112
 <a href="https://testnet.openledger.xyz/dashboard" target="_blank" rel="noopener noreferrer">testnet.openledger.xyz/dashboard</a>
 
 </br>
+<i>Note: Jika remote blank hitam dan keluar silahkan gunakan perintah di bawah ini, dan coba login kembali</i>
+
+```
+sudo pkill -u nama-user
+```
+
+```
+sudo systemctl restart xrdp
+```
+
+
+</br>
 <i>Referensi for install open-ledger by cryptonodefarmer.</i>
 
 
