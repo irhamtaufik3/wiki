@@ -18,6 +18,10 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Privasea',
+					autogenerate: { directory: 'privasea' },
+				},
+				{
 					label: 'Open Ledger',
 					autogenerate: { directory: 'open-ledger' },
 				},
