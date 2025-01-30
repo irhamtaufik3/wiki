@@ -1,5 +1,5 @@
 ---
-title: Update Node Pipe Network DevNet 0.1.2
+title: Update Node Pipe Network DevNet-1 0.1.2
 description: Guide update node pipe network 0.1.2
 ---
 

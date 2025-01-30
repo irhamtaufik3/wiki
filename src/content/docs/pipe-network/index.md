@@ -1,5 +1,5 @@
 ---
-title: Install Node Pipe Network DevNet
+title: Install Node Pipe Network DevNet-1
 description: Guide install node pipe network
 ---
 
