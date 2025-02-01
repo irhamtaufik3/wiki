@@ -1,20 +1,20 @@
 ---
-title: Install Node Pipe Network DevNet-2
+title: Install Node Pipe Network DevNet-2 0.2.1
 description: Guide install node pipe network
 ---
 
 ## System Specs
 | Hardware  | Requirement  |
 |-----------|--------------|
-| CPU	    | 2 Cores      |
-| RAM	    | 4 GB         |
+| CPU	      | 2 Cores      |
+| RAM	      | 4 GB         |
 | Storage   | 200 GB       |
 | Internet  | 24/7         |
 | Port      | 8003         |
 
-<i>Last Update: 30-01-2025</i>
+<i>Last Update: 01-02-2025</i>
 
-## Install Node Pipe Network DevNet-2
+## Install Node Pipe Network DevNet-2 v0.2.1
 
 1. Update paket dan install wget tmux
 
@@ -33,7 +33,7 @@ systemctl stop dcdnd && systemctl disable dcdnd
 3. Download file node DevNet-2
 
 ```
-wget https://dl.pipecdn.app/v0.2.0/pop
+wget https://dl.pipecdn.app/v0.2.1/pop
 ```
 </br>
 
@@ -83,7 +83,7 @@ tmux new -s pipe-network
 ```
 
 ```
-./pop --points-route
+./pop --points
 ```
 </br>
 
@@ -94,7 +94,7 @@ tmux new -s pipe-network
 ```
 </br>
 
-11. Masuk ke tmux t3rn (jika ingin lihat node run atau stop)
+11. Masuk ke tmux pipe-network (jika ingin lihat node run atau stop)
 
 ```
 tmux attach -t pipe-network
