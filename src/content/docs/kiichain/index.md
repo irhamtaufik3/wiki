@@ -37,7 +37,7 @@ nano join_oro_cv.sh
 ```
 </br>
 
-4. Patikan block committed (stop log, ctrl c)
+4. Pastikan block committed (stop log, ctrl c)
 
 ```
 journalctl -fu kiichain3
