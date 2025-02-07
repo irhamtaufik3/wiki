@@ -18,6 +18,10 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Kiichain',
+					autogenerate: { directory: 'kiichain' },
+				},
+				{
 					label: 'Privasea',
 					autogenerate: { directory: 'privasea' },
 				},
