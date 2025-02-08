@@ -10,6 +10,8 @@ description: Guide for install validator kiichain
 | RAM	    | 64 GB          |
 | Disk      | 1000 GB         |
 
+<i>Last update: 08-02-2025</i>
+
 ## Install Kiichain Validator
 
 1. Download script otomatis untuk run node
@@ -90,7 +92,7 @@ kiichaind tx staking create-validator \
   --min-self-delegation=$MIN_SELF_DELEGATION_AMOUNT \
   --gas="auto" \
   --gas-adjustment 1.3 \
-  --gas-prices="0.01ukii" \
+  --gas-prices="0.1ukii" \
   --from=$VALIDATOR_KEY_NAME
 ```
 </br>
