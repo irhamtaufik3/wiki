@@ -18,6 +18,10 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Union',
+					autogenerate: { directory: 'union' },
+				},
+				{
 					label: 'Kiichain',
 					autogenerate: { directory: 'kiichain' },
 				},
