@@ -9,6 +9,8 @@ description: Guide install node multiple network
 | CPU	      | 1 Cores     |
 | RAM	      | 2 GB        |
 
+<i>Last update: 19-02-2025</i>
+
 ## Prepare Before Install Node
 1. Buat Wallet baru di OKX atau metamask (EVM)  
 
@@ -28,7 +30,7 @@ apt update
 2. Download file node
 
 ```
-wget https://cdn.app.multiple.cc/client/linux/x64/multipleforlinux.tar
+wget wget https://mdeck-download.s3.us-east-1.amazonaws.com/client/linux/x64/multipleforlinux.tar
 ```
 </br>
 
