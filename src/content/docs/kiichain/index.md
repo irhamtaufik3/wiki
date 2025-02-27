@@ -25,8 +25,7 @@ chmod +x join_oro_cv.sh
 ```
 </br>
 
-2. Edit node_moniker = Nama_Validator_Anda (ubah nama NODE_MONIKER, bebas, jgn ada spasi, save ctrl x,y enter)  
-   Edit SERVICE_VERSION menjadi SERVICE_VERSION="v2.0.0"
+2. Edit node_moniker = Nama_Validator_Anda (ubah nama NODE_MONIKER, bebas, jgn ada spasi, save ctrl x,y enter)
 
 ```
 nano join_oro_cv.sh
