@@ -10,7 +10,7 @@ description: Guide for install validator kiichain
 | RAM	    | 64 GB          |
 | Disk      | 1000 GB         |
 
-<i>Last update: 08-02-2025</i>
+<i>Last update: 27-02-2025</i>
 
 ## Install Kiichain Validator
 
@@ -25,7 +25,8 @@ chmod +x join_oro_cv.sh
 ```
 </br>
 
-2. Edit node_moniker = Nama_Validator_Anda (ubah nama NODE_MONIKER, bebas, jgn ada spasi, save ctrl x,y enter)
+2. Edit node_moniker = Nama_Validator_Anda (ubah nama NODE_MONIKER, bebas, jgn ada spasi, save ctrl x,y enter)  
+   Edit SERVICE_VERSION menjadi SERVICE_VERSION="v2.0.0"
 
 ```
 nano join_oro_cv.sh
@@ -39,34 +40,41 @@ nano join_oro_cv.sh
 ```
 </br>
 
-4. Pastikan block committed (stop log, ctrl c)
+4. Pastikan versi kiichain 2.0.0
+
+```
+kiichaind version
+```
+</br>
+
+5. Pastikan block committed (stop log, ctrl c)
 
 ```
 journalctl -fu kiichain3
 ```
 </br>
 
-5. Buat keys/wallet (simpan semua info, restore pharse ke keplr)
+6. Buat keys/wallet (simpan semua info, restore pharse ke keplr)
 
 ```
 kiichaind keys add Nama_Validator_Anda
 ```
 </br>
 
-6. Konekkan wallet ke dashboard (Add rpc dan claim faucet anda)  
+7. Konekkan wallet ke dashboard (Add rpc dan claim faucet anda)  
 <a href="https://www.kiitestexplorer.io/wallet/accounts" target="_blank" rel="noopener noreferrer">www.kiitestexplorer.io/wallet/accounts/</a>
 
 </br>
 
-7. Export parameter untuk create/add validator
+8. Export parameter untuk create/add validator
 
 ```
 export CHAIN_ID=kiichain3
-export AMOUNT=40000000ukii
+export AMOUNT=9000000ukii
 export COMMISSION_MAX_CHANGE_RATE=0.1
 export COMMISSION_MAX_RATE=0.1
 export COMMISSION_RATE=0.1
-export MIN_SELF_DELEGATION_AMOUNT=40000000
+export MIN_SELF_DELEGATION_AMOUNT=9000000
 ```
 
 ```
@@ -78,7 +86,7 @@ export VALIDATOR_KEY_NAME=Nama_Validator_Anda
 ```
 </br>
 
-8. Add node/run node (ketik y, enter)
+9. Add node/run node (ketik y, enter)
 
 ```
 kiichaind tx staking create-validator \
@@ -97,7 +105,7 @@ kiichaind tx staking create-validator \
 ```
 </br>
 
-9. Cek Node Anda di Dashboard (pastikan nama validator anda muncul)  
+10. Cek Node Anda di Dashboard (pastikan nama validator anda muncul)  
 <a href="https://www.kiitestexplorer.io/Testnet%20Oro/staking" target="_blank" rel="noopener noreferrer">www.kiitestexplorer.io/Testnet%20Oro/staking/</a>
 </br>
 
