@@ -10,6 +10,8 @@ description: Guide for install cess node storage
 | RAM	    | 8 GB          |
 | Disk      | 400 GB        |
 
+<i>Last update: 11-03-2025</i>
+
 ## Prepare Before Install Node
 1. Install Wallet extension Subwallet di chrome  
    <a href="https://chromewebstore.google.com/detail/subwallet-polkadot-wallet/onhogfjeacnfoofkfgppdlbmlmnplgbn" target="_blank" rel="noopener noreferrer">chromewebstore.google.com/detail/subwallet-polkadot-wallet/onhogfjeacnfoofkfgppdlbmlmnplgbn</a>
