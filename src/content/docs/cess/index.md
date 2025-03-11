@@ -6,9 +6,9 @@ description: Guide for install cess node storage
 ## System Specs
 | Hardware  |	Requirement |
 |-----------|---------------|
-| CPU	    | 6 Cores       |
-| RAM	    | 10 GB          |
-| Disk      | 500 GB        |
+| CPU	    | 4 Cores       |
+| RAM	    | 8 GB          |
+| Disk      | 400 GB        |
 
 ## Prepare Before Install Node
 1. Install Wallet extension Subwallet di chrome  
@@ -18,7 +18,7 @@ description: Guide for install cess node storage
 - Wallet-1 untuk signature & staking/claim faucet (jangan lupa simpan pharse/mnemonic)
 - Wallet-2 untuk address reward (jangan lupa simpan pharse/mnemonic)
 - Simpan address cess wallet-1 & wallet-2 awalan cX.. (lihat gambar di bawah ini)
-<img src="/public/cess-1.png" alt="cess-1" />
+<img src="/cess-1.png" alt="cess-1" />
 
 3. Claim faucet minimal 4100 (ada 2 cara)  
 - Claim by web hanya 100 faucet (isi address, email dan code verify email)  
@@ -137,7 +137,7 @@ cess start
 ```
 docker logs chain
 ```
-<img src="/public/cess-2.png" alt="cess-2" />
+<img src="/cess-2.png" alt="cess-2" />
 </br>
 
 8. Lihat storage node status (tunggu copy block selesai)
@@ -145,7 +145,7 @@ docker logs chain
 ```
 cess miner stat
 ```
-<img src="/public/cess-3.png" alt="cess-3" />
+<img src="/cess-3.png" alt="cess-3" />
 
 DONE
 
