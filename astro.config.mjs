@@ -18,6 +18,10 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Cess',
+					autogenerate: { directory: 'cess' },
+				},
+				{
 					label: 'Union',
 					autogenerate: { directory: 'union' },
 				},
