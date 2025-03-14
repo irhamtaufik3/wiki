@@ -1,5 +1,5 @@
 ---
-title: Install Node Pipe Network DevNet-2 0.2.1
+title: Install Node Pipe Network DevNet-2 0.2.8
 description: Guide install node pipe network
 ---
 
@@ -12,9 +12,9 @@ description: Guide install node pipe network
 | Internet  | 24/7         |
 | Port      | 8003         |
 
-<i>Last Update: 01-02-2025</i>
+<i>Last Update: 14-03-2025</i>
 
-## Install Node Pipe Network DevNet-2 v0.2.1
+## Install Node Pipe Network DevNet-2 v0.2.8
 
 1. Update paket dan install wget tmux
 
@@ -33,7 +33,7 @@ systemctl stop dcdnd && systemctl disable dcdnd
 3. Download file node DevNet-2
 
 ```
-wget https://dl.pipecdn.app/v0.2.1/pop
+wget https://dl.pipecdn.app/v0.2.8/pop
 ```
 </br>
 
