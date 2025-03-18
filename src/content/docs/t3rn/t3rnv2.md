@@ -100,6 +100,7 @@ tmux attach -t t3rn
 
 -   <a href="https://bridge.t1rn.io/" target="_blank" rel="noopener noreferrer">bridge.t1rn.io/</a>  
 -   <a href="https://brn.explorer.caldera.xyz/" target="_blank" rel="noopener noreferrer">brn.explorer.caldera.xyz/</a>
+-   <a href="https://b2n.explorer.caldera.xyz/" target="_blank" rel="noopener noreferrer">b2n.explorer.caldera.xyz/</a>
 
 <head>
 <!-- Google tag (gtag.js) -->
