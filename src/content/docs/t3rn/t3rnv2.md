@@ -9,7 +9,7 @@ description: Guide install node t3rn 2
 | CPU	        | 2 Cores      |
 | RAM	        | 4 GB         |
 
-<i>Last update: 18-03-2025</i>
+<i>Last update: 23-03-2025</i>
 
 
 ## Prepare Before Install Node
@@ -18,7 +18,7 @@ description: Guide install node t3rn 2
 2. Swap BRN (Net arb sepolia) to B2N  
    <a href="https://b2n.bridge.caldera.xyz/" target="_blank" rel="noopener noreferrer">b2n.bridge.caldera.xyz/</a>
 
-## Install Node/executor T3RNv2 v0.53.1
+## Install Node/executor T3RNv2 v0.56.0
 1. Update Paket dan Install curl, tmux, wget
 
 ```
@@ -34,14 +34,14 @@ cd && rm -rf executor*
 ```
 
 ```
-wget https://github.com/t3rn/executor-release/releases/download/v0.53.1/executor-linux-v0.53.1.tar.gz
+wget https://github.com/t3rn/executor-release/releases/download/v0.56.0/executor-linux-v0.56.0.tar.gz
 ```
 </br>
 
 3. Ekstrak file
 
 ```
-tar -xvzf executor-linux-v0.53.1.tar.gz
+tar -xvzf executor-linux-v0.56.0.tar.gz
 ```
 </br>
 
@@ -72,24 +72,44 @@ export ENABLED_NETWORKS='arbitrum-sepolia,base-sepolia,optimism-sepolia,l2rn'
 ```
 </br>
 
-7. Export private key Anda
+7. set gas fee (sesuaikan selera anda)
+
+```
+export EXECUTOR_MAX_L3_GAS_PRICE=1000
+```
+</br>
+
+8. Set RPC (sesuaikan jika punya rpc sendiri)
+
+```
+export RPC_ENDPOINTS='{
+    "l2rn": ["https://b2n.rpc.caldera.xyz/http"],
+    "arbt": ["https://arbitrum-sepolia.drpc.org", "https://sepolia-rollup.arbitrum.io/rpc"],
+    "bast": ["https://base-sepolia-rpc.publicnode.com", "https://base-sepolia.drpc.org"],
+    "opst": ["https://sepolia.optimism.io", "https://optimism-sepolia.drpc.org"],
+    "unit": ["https://unichain-sepolia.drpc.org", "https://sepolia.unichain.org"]
+}'
+```
+</br>
+
+9. Export private key Anda
 
 ```
 export PRIVATE_KEY_LOCAL=privatekey_metamask_anda
 ```
 </br>
 
-8. Run Node
+10. Run Node
 
 ```
 ./executor
 ```
 </br>
 
-9. DONE (keluar dari tmux)  
+11. DONE (keluar dari tmux)  
    tekan ctrl, tahan terus lalu tekan b, lepas semua, tekan d
 
-10. Masuk ke tmux t3rn (jika ingin lihat node run atau stop)
+12. Masuk ke tmux t3rn (jika ingin lihat node run atau stop)
 
 ```
 tmux attach -t t3rn
@@ -98,8 +118,7 @@ tmux attach -t t3rn
 
 ## Check Node/executor di dashboard
 
--   <a href="https://bridge.t1rn.io/" target="_blank" rel="noopener noreferrer">bridge.t1rn.io/</a>  
--   <a href="https://brn.explorer.caldera.xyz/" target="_blank" rel="noopener noreferrer">brn.explorer.caldera.xyz/</a>
+-   <a href="https://bridge.t2rn.io/" target="_blank" rel="noopener noreferrer">bridge.t2rn.io/</a>  
 -   <a href="https://b2n.explorer.caldera.xyz/" target="_blank" rel="noopener noreferrer">b2n.explorer.caldera.xyz/</a>
 
 <head>
