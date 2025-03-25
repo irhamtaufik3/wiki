@@ -9,7 +9,7 @@ description: Guide install node t3rn 2
 | CPU	        | 2 Cores      |
 | RAM	        | 4 GB         |
 
-<i>Last update: 23-03-2025</i>
+<i>Last update: 25-03-2025</i>
 
 
 ## Prepare Before Install Node
@@ -18,7 +18,7 @@ description: Guide install node t3rn 2
 2. Swap BRN (Net arb sepolia) to B2N  
    <a href="https://b2n.bridge.caldera.xyz/" target="_blank" rel="noopener noreferrer">b2n.bridge.caldera.xyz/</a>
 
-## Install Node/executor T3RNv2 v0.57.0
+## Install/update executor T3RNv2 v0.58.0
 1. Update Paket dan Install curl, tmux, wget
 
 ```
@@ -34,14 +34,14 @@ cd && rm -rf executor*
 ```
 
 ```
-wget https://github.com/t3rn/executor-release/releases/download/v0.57.0/executor-linux-v0.57.0.tar.gz
+wget https://github.com/t3rn/executor-release/releases/download/v0.58.0/executor-linux-v0.58.0.tar.gz
 ```
 </br>
 
 3. Ekstrak file
 
 ```
-tar -xvzf executor-linux-v0.57.0.tar.gz
+tar -xvzf executor-linux-v0.58.0.tar.gz
 ```
 </br>
 
