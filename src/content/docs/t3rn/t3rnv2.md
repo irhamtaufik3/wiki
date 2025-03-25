@@ -76,7 +76,7 @@ export NETWORKS_DISABLED='blast-sepolia'
 7. set gas fee (sesuaikan selera anda)
 
 ```
-export EXECUTOR_MAX_L3_GAS_PRICE=1000
+export EXECUTOR_MAX_L3_GAS_PRICE=10000
 ```
 </br>
 
