@@ -9,7 +9,7 @@ description: Guide install node t3rn 2
 | CPU	        | 2 Cores      |
 | RAM	        | 4 GB         |
 
-<i>Last update: 25-03-2025</i>
+<i>Last update: 05-04-2025</i>
 
 
 ## Prepare Before Install Node
@@ -18,7 +18,7 @@ description: Guide install node t3rn 2
 2. Swap BRN (Net arb sepolia) to B2N  
    <a href="https://b2n.bridge.caldera.xyz/" target="_blank" rel="noopener noreferrer">b2n.bridge.caldera.xyz/</a>
 
-## Install/update executor T3RNv2 v0.59.0
+## Install/update executor T3RNv2 v0.61.0
 1. Update Paket dan Install curl, tmux, wget
 
 ```
@@ -34,14 +34,14 @@ cd && rm -rf executor*
 ```
 
 ```
-wget https://github.com/t3rn/executor-release/releases/download/v0.59.0/executor-linux-v0.59.0.tar.gz
+wget https://github.com/t3rn/executor-release/releases/download/v0.61.0/executor-linux-v0.61.0.tar.gz
 ```
 </br>
 
 3. Ekstrak file
 
 ```
-tar -xvzf executor-linux-v0.59.0.tar.gz
+tar -xvzf executor-linux-v0.61.0.tar.gz
 ```
 </br>
 
@@ -84,9 +84,10 @@ export EXECUTOR_MAX_L3_GAS_PRICE=10000
 
 ```
 export RPC_ENDPOINTS='{
-    "l2rn": ["http://b2n.rpc.caldera.xyz/http"],
+    "l2rn": ["https://t3rn-b2n.blockpi.network/v1/rpc/public", "http://b2n.rpc.caldera.xyz/http"],
     "arbt": ["https://arbitrum-sepolia.drpc.org", "https://sepolia-rollup.arbitrum.io/rpc"],
     "bast": ["https://base-sepolia-rpc.publicnode.com", "https://base-sepolia.drpc.org"],
+    "blst": ["https://sepolia.blast.io", "https://blast-sepolia.drpc.org"],
     "opst": ["https://sepolia.optimism.io", "https://optimism-sepolia.drpc.org"],
     "unit": ["https://unichain-sepolia.drpc.org", "https://sepolia.unichain.org"]
 }'
