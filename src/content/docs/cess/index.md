@@ -10,7 +10,7 @@ description: Guide for install cess node storage
 | RAM	    | 8 GB          |
 | Disk      | 400 GB        |
 
-<i>Last update: 11-03-2025</i>
+<i>Last update: 08-04-2025</i>
 
 ## Prepare Before Install Node
 1. Install Wallet extension Subwallet di chrome  
@@ -114,7 +114,7 @@ cess config set
 
 `The directory: /opt/cess/storage/disk does not exist, do you need to create it for you? (y/n) y`
 
-`Enter cess storage space, by GB unit (current: 300, press enter to skip): 250` (sesuaikan ukuran storage anda)
+`Enter cess storage space, by GB unit (current: 300, press enter to skip): 400` (sesuaikan ukuran storage anda, minimal 400)
 
 Enter the number of CPU cores used for mining; Your CPU cores are 4  
   `(current: 0, 0 means all cores are used; press enter to skip): 4`
