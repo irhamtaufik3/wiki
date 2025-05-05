@@ -18,6 +18,10 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Aztec',
+					autogenerate: { directory: 'aztec' },
+				},
+				{
 					label: 'Cess',
 					autogenerate: { directory: 'cess' },
 				},
