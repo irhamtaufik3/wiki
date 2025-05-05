@@ -88,21 +88,28 @@ bash -i <(curl -s https://install.aztec.network)
 ```
 </br>
 
-5. Cek jika sudah terinstall
+5. Restart vps (jika sudah hidup remote kembali vps anda)
+
+```
+reboot now
+```
+</br>
+
+6. Cek jika sudah terinstall
 
 ```
 aztec
 ```
 </br>
 
-6. Update Aztec
+7. Update Aztec
 
 ```
 aztec-up alpha-testnet
 ```
 </br>
 
-7. Buat screen
+8. Buat screen
 
 
 ```
@@ -110,7 +117,7 @@ sceen -S aztec
 ```
 </br>
 
-8. Jalankan node (ubah yg diperlukan)
+9. Jalankan node (ubah yg diperlukan)
 
 ```
 aztec start --node --archiver --sequencer \
@@ -124,12 +131,12 @@ aztec start --node --archiver --sequencer \
 ```
 </br>
 
-9. Keluar dari screen  
+10. Keluar dari screen  
 Ctrl + A + D  
 <i>Note: Setelah memasukkan perintah, node Anda mulai berjalan, Butuh beberapa menit agar node Anda tersinkronisasi (-+ 10 menit)</i>
 </br>
 
-10. Claim Role Discord
+11. Claim Role Discord
 - Dapatkan nomor blok terbaru (simpan, contoh hasil: 20905)
 
 ```
@@ -147,7 +154,7 @@ http://localhost:8080 | jq -r ".result"
 ```
 </br>
 
-11. Daftar dengan Discord  
+12. Daftar dengan Discord  
 - Ketik perintah berikut di server Discord ini: ```/operator start```
 - Setelah mengetik perintah, Discord akan menampilkan kolom opsi yang terlihat seperti ini:
 - address: Alamat validator Anda (Alamat Ethereum)
@@ -156,7 +163,7 @@ http://localhost:8080 | jq -r ".result"
 - Kemudian Anda akan mendapatkan Role Apprentice
 </br>
 
-12. Register Validator (Ganti RPC_URL, your-validator-address & 2x your-validator-address)
+13. Register Validator (Ganti RPC_URL, your-validator-address & 2x your-validator-address)
 
 ```
 aztec add-l1-validator \
@@ -170,7 +177,7 @@ aztec add-l1-validator \
 <i>Perlu diketahui bahwa ada kuota harian 10 registrasi validator per hari, jika terjadi kesalahan, coba lagi besok.</i>
 </br>
 
-13. Cek Validator Anda  
+14. Cek Validator Anda  
 https://aztecscan.xyz/validators
 
 
