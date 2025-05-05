@@ -1,6 +1,6 @@
 ---
 title: Install Sequencer Node
-description: Guide for install Sequencer Node
+description: Guide for install Aztec Sequencer Node
 ---
 
 ## System Specs
