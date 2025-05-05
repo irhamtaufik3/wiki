@@ -113,7 +113,7 @@ aztec-up alpha-testnet
 
 
 ```
-sceen -S aztec
+screen -S aztec
 ```
 </br>
 
