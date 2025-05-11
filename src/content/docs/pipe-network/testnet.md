@@ -11,7 +11,7 @@ description: Guide install node pipe network
 | Storage   | 100 GB       |
 | Internet  | 1 Gbps       |
 
-<i>Last Update: 10-05-2025</i>  
+<i>Last Update: 11-05-2025</i>  
 <i>Note: Bagi yang mendapatkan email yang bisa running</i>
 
 ## Install Node Pipe Network Testnet di Ubuntu 24.04
@@ -57,6 +57,10 @@ EOL'
 
 ```
 sudo mkdir -p /opt/popcache
+```
+
+```
+sudo mkdir -p /opt/popcache/logs
 ```
 
 ```
