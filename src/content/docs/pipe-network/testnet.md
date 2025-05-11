@@ -170,10 +170,18 @@ sudo systemctl status popcache
 ```
 </br>
 
-10. Cek status node (Check the health endpoint)
+10. Cek status node 
+
+- Check the health endpoint
 
 ```
 curl http://localhost/health
+```
+
+- Cek dari browser
+
+```
+https://ip-vps-anda/state
 ```
 
 <h2>DONE</h2>

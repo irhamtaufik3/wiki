@@ -185,10 +185,18 @@ docker logs -f popnode
 ```
 </br>
 
-12. Cek status node (Check the health endpoint)
+12. Cek status node 
+
+- Check the health endpoint
 
 ```
 curl http://ip-public-vps/health
+```
+
+- Cek dari browser
+
+```
+https://ip-vps-anda/state
 ```
 
 <h2>DONE</h2>
