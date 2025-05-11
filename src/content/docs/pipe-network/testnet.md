@@ -50,7 +50,7 @@ sudo bash -c 'cat > /etc/security/limits.d/popcache.conf << EOL
 *    soft nofile 65535
 EOL'
 ```
-<i><b>Logout dan login kembali ke vps anda utk melanjutkan step ke 4</b></i>
+<i><b>Logout dan login kembali ke vps anda untuk melanjutkan step ke 4</b></i>
 </br>
 
 4. Buat Direktori Instalasi
@@ -69,7 +69,7 @@ cd /opt/popcache
 </br>
 
 5. Download file binary node
-- Donwload file
+- Download file
 ```
 wget https://download.pipe.network/static/pop-v0.3.0-linux-x64.tar.gz
 ```
@@ -166,7 +166,7 @@ sudo systemctl start popcache
 9. Cek status running systemctl popcache (Pastikan sudah running)
 
 ```
-sudo systemctl status
+sudo systemctl status popcache
 ```
 </br>
 
