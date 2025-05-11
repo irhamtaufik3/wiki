@@ -154,7 +154,7 @@ EOL'
 
 ```
 sudo systemctl enable popcache
-sudo systemctl daemon
+sudo systemctl daemon-reload
 sudo systemctl start popcache
 ```
 </br>
