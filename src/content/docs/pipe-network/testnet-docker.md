@@ -11,7 +11,7 @@ description: Guide install node pipe network with docker
 | Storage   | 100 GB       |
 | Internet  | 1 Gbps       |
 
-<i>Last Update: 10-05-2025</i>  
+<i>Last Update: 18-05-2025</i>  
 <i>Note: Bagi yang mendapatkan email yang bisa running</i>
 
 ## Install Node Pipe Network Testnet di Docker
@@ -19,11 +19,11 @@ description: Guide install node pipe network with docker
 1. Update paket dan install depedency
 
 ```
-apt update && apt install libssl-dev ca-certificates docker.io -y
+apt update && apt install libssl-dev ca-certificates docker.io jq -y
 ```
 </br>
 
-2. Optimalkan Pengaturan Jaringan (copas saja)
+2. Optimalkan Pengaturan Jaringan (copy paste saja)
 
 ```
 sudo bash -c 'cat > /etc/sysctl.d/99-popcache.conf << EOL
@@ -42,7 +42,7 @@ sudo sysctl -p /etc/sysctl.d/99-popcache.conf
 ```
 </br>
 
-3. Tingkatkan Batas File (untuk meningkatkan performa, copas saja)
+3. Tingkatkan Batas File (untuk meningkatkan performa, copy paste saja)
 
 ```
 sudo bash -c 'cat > /etc/security/limits.d/popcache.conf << EOL
@@ -123,7 +123,7 @@ nano config.json
 <i>Simpan dengan cara, ctrl x, y, enter</i>
 </br>
 
-7. Buat Dockerfile (copas saja)
+7. Buat Dockerfile (copy paste saja)
 
 ```
 cat > Dockerfile << EOL
@@ -193,10 +193,28 @@ docker logs -f popnode
 curl http://ip-public-vps/health
 ```
 
+```
+curl -k https://ip-public-vps/health | jq
+```
+
+- Check the state endpoint
+```
+curl -k https://ip-public-vps/state | jq
+```
+
+- Check the metrics endpoint
+```
+curl -k https://ip-public-vps/metrics | jq
+```
+
 - Cek dari browser
 
 ```
 https://ip-vps-anda/state
+```
+
+```
+https://ip-vps-anda/health
 ```
 
 <h2>DONE</h2>

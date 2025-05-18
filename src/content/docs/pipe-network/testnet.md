@@ -11,7 +11,7 @@ description: Guide install node pipe network
 | Storage   | 100 GB       |
 | Internet  | 1 Gbps       |
 
-<i>Last Update: 11-05-2025</i>  
+<i>Last Update: 18-05-2025</i>  
 <i>Note: Bagi yang mendapatkan email yang bisa running</i>
 
 ## Install Node Pipe Network Testnet di Ubuntu 24.04
@@ -19,11 +19,11 @@ description: Guide install node pipe network
 1. Update paket dan install depedency
 
 ```
-apt update && apt install libssl-dev ca-certificates -y
+apt update && apt install libssl-dev ca-certificates jq -y
 ```
 </br>
 
-2. Optimalkan Pengaturan Jaringan (copas saja)
+2. Optimalkan Pengaturan Jaringan (copy paste saja)
 
 ```
 sudo bash -c 'cat > /etc/sysctl.d/99-popcache.conf << EOL
@@ -42,7 +42,7 @@ sudo sysctl -p /etc/sysctl.d/99-popcache.conf
 ```
 </br>
 
-3. Tingkatkan Batas File (untuk meningkatkan performa, copas saja)
+3. Tingkatkan Batas File (untuk meningkatkan performa, copy paste saja)
 
 ```
 sudo bash -c 'cat > /etc/security/limits.d/popcache.conf << EOL
@@ -127,7 +127,7 @@ nano config.json
 <i>Simpan dengan cara, ctrl x, y, enter</i>
 </br>
 
-7. Buat systemctl (untuk node run otomatis, copas saja)
+7. Buat systemctl (untuk node run otomatis, copy paste saja)
 
 ```
 sudo bash -c 'cat > /etc/systemd/system/popcache.service << EOL
@@ -178,10 +178,28 @@ sudo systemctl status popcache
 curl http://localhost/health
 ```
 
+```
+curl -k https://localhost/health | jq
+```
+
+- Check the state endpoint
+```
+curl -k https://localhost/state | jq
+```
+
+- Check the metrics endpoint
+```
+curl -k https://localhost/metrics | jq
+```
+
 - Cek dari browser
 
 ```
 https://ip-vps-anda/state
+```
+
+```
+https://ip-vps-anda/health
 ```
 
 <h2>DONE</h2>
