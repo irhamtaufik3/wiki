@@ -18,6 +18,10 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Blockcast',
+					autogenerate: { directory: 'blockcast' },
+				},
+				{
 					label: 'Aztec',
 					autogenerate: { directory: 'aztec' },
 				},
@@ -74,7 +78,7 @@ export default defineConfig({
 					autogenerate: { directory: 't3rn' },
 				},
 				{
-					label: 'hemi',
+					label: 'Hemi',
 					autogenerate: { directory: 'hemi' },
 				},
 				
