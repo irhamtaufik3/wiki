@@ -1,5 +1,5 @@
 ---
-title: Maouam Node Lab
+title: Maouam Nodelab
 description: Panduan Install Node Airdrop Kripto.
 ---
 

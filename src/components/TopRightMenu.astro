@@ -1,0 +1,99 @@
+---
+import { useState } from 'react';
+---
+
+<style>
+.navbar-extra {
+  position: fixed;
+  top: 2.5rem;
+  right: 2rem;
+  z-index: 1000;
+}
+
+.menu-button {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 4.5rem;
+}
+
+.menu-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.menu-list {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+.menu-list a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.menu-list a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* ⚡ Override untuk Starlight light mode */
+html[data-theme='light'] .menu-list a {
+  color: black !important;
+}
+
+html[data-theme='light'] .menu-button {
+  color: black !important;
+}
+
+@media (max-width: 768px) {
+  .menu-button {
+    display: block;
+  }
+
+  .menu-list {
+    flex-direction: column;
+    position: absolute;
+    top: 2.5rem;
+    right: 0;
+    display: none;
+  }
+
+  .menu-list.open {
+    display: flex;
+  }
+}
+</style>
+
+<script type="module">
+  let menuOpen = false;
+  const toggleMenu = () => {
+    const menu = document.getElementById('menu-list');
+    menuOpen = !menuOpen;
+    menu.classList.toggle('open', menuOpen);
+  };
+</script>
+
+<div class="navbar-extra">
+  <button class="menu-button" onclick="toggleMenu()" aria-label="Toggle menu">
+    <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+  </button>
+
+  <div class="menu-list" id="menu-list">
+    <a href="/">Home</a>
+    <a href="/#validator-nodes">Services</a>
+    <a href="/guides/docs/">Docs</a>
+    <a href="/#tools">Tools</a>
+    <a href="/#contact">Contact</a>
+  </div>
+</div>

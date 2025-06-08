@@ -1,0 +1,84 @@
+---
+const testnetNodes = [
+  { name: "0G Labs", role: "Validator & RPC", status: "active", logo: "/logos/0g.png", url: "https://www.astrostake.xyz/0g-status/" },
+  { name: "Kiichain", role: "Validator", status: "active", logo: "/logos/kiichain.jpg", url: "https://explorer.maouam.nodelab.my.id/kiichain-testnet/staking/kiivaloper1ynwlg7d8q49fm0n49pnnkwu4kme3y6w5rh68pc" },
+  { name: "Empeiria", role: "Validator", status: "active", logo: "/logos/empeiria.png", url: "https://explorer.maouam.nodelab.my.id/empeiria-testnet/staking/empevaloper187afrja0wemfrwcr80t720vs4y7h3gr9fjf9me" },
+  { name: "Lumera", role: "Validator", status: "active", logo: "/logos/lumera.png", url: "https://explorer.maouam.nodelab.my.id/lumera-testnet/staking/lumeravaloper1kqwk00kpez2fctrmj4l836f827fxs6yahrfdzy" },
+  { name: "Dill", role: "Validator", status: "active", logo: "/logos/dill.png", url: "https://alps.dill.xyz/validators?pubkey=0x8f6827b07c7b9b7956196f092c0333732958913effa9d13830f7edafa82f4ff8f1e64bbf8dddf3713be9402719075343" },
+  { name: "Zenchain", role: "Validator", status: "active", logo: "/logos/zenchain.webp", url: "https://node.zenchain.io/#/nodes" },
+  { name: "Shardeum", role: "Validator", status: "ended", logo: "/logos/shardeum.png", url: "https://shardeum.org/" },
+  { name: "VANA", role: "DLP Validator", status: "ended", logo: "/logos/vana2.png", url: "https://www.vana.org/" },
+  { name: "Elixir", role: "Validator", status: "ended", logo: "/logos/elixir.png", url: "https://www.elixir.xyz/validators" },
+];
+---
+
+<section id="validator-nodes" class="text-white py-12 px-4 max-w-7xl mx-auto">
+  <h2 class="text-3xl font-bold mb-6 text-center">Validator Nodes</h2>
+  <div class="flex justify-center gap-4 mb-6">
+    <button id="mainnetBtn" class="px-4 py-2 rounded-md bg-gray-600">Mainnet</button>
+    <button id="testnetBtn" class="px-4 py-2 rounded-md bg-blue-600">Testnet</button>
+  </div>
+
+  <div id="mainnetContent" class="hidden text-center max-w-2xl mx-auto text-gray-400 text-lg">
+    <p class="mb-4">We're not on any mainnet — yet.</p>
+    <p>But we're actively contributing to testnets, growing our track record,</p>
+    <p>and working to earn our place in securing decentralized networks.</p>
+  </div>
+
+  <div id="testnetContent">
+    <p class="text-center max-w-2xl mx-auto mb-10 text-gray-400">
+      We actively contribute to securing decentralized networks by running high-performance validator nodes
+      with 24/7 uptime monitoring and community support.
+    </p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      {testnetNodes.map((node) => (
+        <div class="bg-[#1A1A1D] p-6 rounded-xl shadow-md flex flex-col justify-between min-h-[200px] overflow-hidden">
+          <div>
+            <img src={node.logo} alt={node.name} class="h-10 w-10 mb-4" />
+            <h3 class="text-lg font-semibold">{node.name}</h3>
+            <p class="text-sm text-gray-400">{node.role}</p>
+          </div>
+          <div class="mt-4 flex justify-between items-center">
+            <a href={node.url} target="_blank" rel="noopener noreferrer" class="text-sm text-blue-400 hover:underline truncate max-w-[80%]">
+              View
+            </a>
+            {node.status === "active" ? (
+              <span class="h-3 w-3 rounded-full bg-green-500 inline-block"></span>
+            ) : (
+              <span class="bg-gray-700 text-xs px-2 py-0.5 rounded-md">ENDED</span>
+            )}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const mainnetBtn = document.getElementById("mainnetBtn");
+    const testnetBtn = document.getElementById("testnetBtn");
+    const mainnetContent = document.getElementById("mainnetContent");
+    const testnetContent = document.getElementById("testnetContent");
+
+    mainnetBtn.addEventListener("click", () => {
+      mainnetBtn.classList.add("bg-blue-600");
+      mainnetBtn.classList.remove("bg-gray-600");
+      testnetBtn.classList.add("bg-gray-600");
+      testnetBtn.classList.remove("bg-blue-600");
+
+      mainnetContent.classList.remove("hidden");
+      testnetContent.classList.add("hidden");
+    });
+
+    testnetBtn.addEventListener("click", () => {
+      testnetBtn.classList.add("bg-blue-600");
+      testnetBtn.classList.remove("bg-gray-600");
+      mainnetBtn.classList.add("bg-gray-600");
+      mainnetBtn.classList.remove("bg-blue-600");
+
+      testnetContent.classList.remove("hidden");
+      mainnetContent.classList.add("hidden");
+    });
+  });
+</script>
