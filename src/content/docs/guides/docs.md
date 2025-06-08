@@ -1,6 +1,6 @@
 ---
 title: Maouam Nodelab
-description: Panduan Install Node Airdrop Kripto.
+description: Panduan Install Node Airdrop Kripto
 ---
 
 Dokumentasi ini dibuat untuk para node airdrop hunter. Semoga kita semua bisa terus sama-sama belajar.  
