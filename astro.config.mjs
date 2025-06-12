@@ -6,10 +6,15 @@ import tailwind from '@astrojs/tailwind';
 // https://astro.build/config
 export default defineConfig({
     integrations: [starlight({
+        components: {
+            ThemeProvider: './src/components/ForceDarkTheme.astro',
+            ThemeSelect: './src/components/EmptyComponent.astro',
+            //"Navbar": './src/components/TopRightMenu.astro',
+          },          
         title: 'Maouam Nodelab',
-        social: {
-            github: 'https://github.com/irhamtaufik3',
-        },
+        //social: {
+          //  github: 'https://github.com/',
+        //},
         sidebar: [
             {
                 label: 'Guides',

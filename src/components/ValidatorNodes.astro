@@ -1,14 +1,14 @@
 ---
 const testnetNodes = [
-  { name: "0G Labs", role: "Validator & RPC", status: "active", logo: "/logos/0g.png", url: "https://www.astrostake.xyz/0g-status/" },
-  { name: "Kiichain", role: "Validator", status: "active", logo: "/logos/kiichain.jpg", url: "https://explorer.maouam.nodelab.my.id/kiichain-testnet/staking/kiivaloper1ynwlg7d8q49fm0n49pnnkwu4kme3y6w5rh68pc" },
-  { name: "Empeiria", role: "Validator", status: "active", logo: "/logos/empeiria.png", url: "https://explorer.maouam.nodelab.my.id/empeiria-testnet/staking/empevaloper187afrja0wemfrwcr80t720vs4y7h3gr9fjf9me" },
-  { name: "Lumera", role: "Validator", status: "active", logo: "/logos/lumera.png", url: "https://explorer.maouam.nodelab.my.id/lumera-testnet/staking/lumeravaloper1kqwk00kpez2fctrmj4l836f827fxs6yahrfdzy" },
-  { name: "Dill", role: "Validator", status: "active", logo: "/logos/dill.png", url: "https://alps.dill.xyz/validators?pubkey=0x8f6827b07c7b9b7956196f092c0333732958913effa9d13830f7edafa82f4ff8f1e64bbf8dddf3713be9402719075343" },
-  { name: "Zenchain", role: "Validator", status: "active", logo: "/logos/zenchain.webp", url: "https://node.zenchain.io/#/nodes" },
-  { name: "Shardeum", role: "Validator", status: "ended", logo: "/logos/shardeum.png", url: "https://shardeum.org/" },
-  { name: "VANA", role: "DLP Validator", status: "ended", logo: "/logos/vana2.png", url: "https://www.vana.org/" },
-  { name: "Elixir", role: "Validator", status: "ended", logo: "/logos/elixir.png", url: "https://www.elixir.xyz/validators" },
+  { name: "0G Labs", role: "Validator & RPC", status: "active", logo: "/logos/0g.png", url: "https://www.astrostake.xyz/0g-status/", url2: "https://docs.astrostake.xyz/0g-labs/" },
+  { name: "Kiichain", role: "Validator", status: "active", logo: "/logos/kiichain.jpg", url: "https://explorer.maouam.nodelab.my.id/kiichain-testnet/staking/kiivaloper1ynwlg7d8q49fm0n49pnnkwu4kme3y6w5rh68pc", url2: "/kiichain" },
+  { name: "Empeiria", role: "Validator", status: "active", logo: "/logos/empeiria.png", url: "https://explorer.maouam.nodelab.my.id/empeiria-testnet/staking/empevaloper187afrja0wemfrwcr80t720vs4y7h3gr9fjf9me", url2: "/#" },
+  { name: "Lumera", role: "Validator", status: "active", logo: "/logos/lumera.png", url: "https://explorer.maouam.nodelab.my.id/lumera-testnet/staking/lumeravaloper1kqwk00kpez2fctrmj4l836f827fxs6yahrfdzy", url2: "/#" },
+  { name: "Dill", role: "Validator", status: "active", logo: "/logos/dill.png", url: "https://alps.dill.xyz/validators?pubkey=0x8f6827b07c7b9b7956196f092c0333732958913effa9d13830f7edafa82f4ff8f1e64bbf8dddf3713be9402719075343", url2: "/#" },
+  { name: "Zenchain", role: "Validator", status: "active", logo: "/logos/zenchain.webp", url: "https://node.zenchain.io/#/nodes", url2: "/#" },
+  { name: "Shardeum", role: "Validator", status: "ended", logo: "/logos/shardeum.png", url: "https://shardeum.org/", url2: "/#" },
+  { name: "VANA", role: "DLP Validator", status: "ended", logo: "/logos/vana2.png", url: "https://www.vana.org/", url2: "/#" },
+  { name: "Elixir", role: "Validator", status: "ended", logo: "/logos/elixir.png", url: "https://www.elixir.xyz/validators", url2: "/#" },
 ];
 ---
 
@@ -42,6 +42,9 @@ const testnetNodes = [
             <div class="mt-4 flex justify-between items-center">
               <a href={node.url} target="_blank" rel="noopener noreferrer" class="text-sm text-blue-600 dark:text-blue-400 hover:underline truncate max-w-[80%]">
                 View
+              </a>
+              <a href={node.url2} target="_blank" rel="noopener noreferrer" class="text-sm text-blue-600 dark:text-blue-400 hover:underline truncate max-w-[80%]">
+                Services
               </a>
               {node.status === "active" ? (
                 <span class="h-3 w-3 rounded-full bg-green-500 inline-block"></span>

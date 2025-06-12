@@ -6,17 +6,17 @@ description: Panduan Install Node Airdrop Kripto
 Dokumentasi ini dibuat untuk para node airdrop hunter. Semoga kita semua bisa terus sama-sama belajar.  
 Semangat, salam JP 😁
 
-## My Blog
+## Our Tools
 
-- Read [My Blog](https://blog.irhamnet.my.id) visit it.
+- Access [Our Tools](/tools) visit it.
 
-## Join my Discord
+## Join Our Discord
 
 - Join our community [Discord](https://discord.gg/q5a74BHcS5)
 
 ## Explorer
 
-- Click My [Explorer](https://explorer.maouam.nodelab.my.id)
+- Access Our [Explorer](https://explorer.maouam.nodelab.my.id)
 
 ## Support this Server
 - ETH Network (eth, usdt, usdc, polygon, bnb, etc)  
@@ -30,7 +30,7 @@ Semangat, salam JP 😁
 yt8S4Kebdj8aKmjm5S2oyPUhxCpMxuJbK1VcHyrLWgN
 ```
 </br>
-<i>Last update: 14-02-2025</i>
+<i>Last update: 12-06-2025</i>
 
 <head>
 <!-- Google tag (gtag.js) -->
