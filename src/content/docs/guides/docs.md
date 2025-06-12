@@ -12,7 +12,7 @@ Semangat, salam JP 😁
 
 ## Join my Discord
 
-- Click it [Discord](https://discord.gg/q5a74BHcS5)
+- Join our community [Discord](https://discord.gg/q5a74BHcS5)
 
 ## Explorer
 

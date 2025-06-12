@@ -19,6 +19,10 @@ export default defineConfig({
                 ],
             },
             {
+                label: 'Datagram',
+                autogenerate: { directory: 'datagram' },
+            },
+            {
                 label: 'Blockcast',
                 autogenerate: { directory: 'blockcast' },
             },

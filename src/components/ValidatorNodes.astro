@@ -12,41 +12,43 @@ const testnetNodes = [
 ];
 ---
 
-<section id="validator-nodes" class="text-white py-12 px-4 max-w-7xl mx-auto">
+<section id="validator-nodes" class="text-black dark:text-white py-12 px-4 max-w-7xl mx-auto">
   <h2 class="text-3xl font-bold mb-6 text-center">Validator Nodes</h2>
   <div class="flex justify-center gap-4 mb-6">
-    <button id="mainnetBtn" class="px-4 py-2 rounded-md bg-gray-600">Mainnet</button>
-    <button id="testnetBtn" class="px-4 py-2 rounded-md bg-blue-600">Testnet</button>
+    <button id="mainnetBtn" class="px-4 py-2 rounded-md bg-gray-600 text-white">Mainnet</button>
+    <button id="testnetBtn" class="px-4 py-2 rounded-md bg-blue-600 text-white">Testnet</button>
   </div>
 
-  <div id="mainnetContent" class="hidden text-center max-w-2xl mx-auto text-gray-400 text-lg">
+  <div id="mainnetContent" class="hidden text-center max-w-2xl mx-auto text-gray-600 dark:text-gray-400 text-lg">
     <p class="mb-4">We're not on any mainnet — yet.</p>
     <p>But we're actively contributing to testnets, growing our track record,</p>
     <p>and working to earn our place in securing decentralized networks.</p>
   </div>
 
   <div id="testnetContent">
-    <p class="text-center max-w-2xl mx-auto mb-10 text-gray-400">
+    <p class="text-center max-w-2xl mx-auto mb-10 text-gray-600 dark:text-gray-400">
       We actively contribute to securing decentralized networks by running high-performance validator nodes
       with 24/7 uptime monitoring and community support.
     </p>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 items-stretch">
       {testnetNodes.map((node) => (
-        <div class="bg-[#1A1A1D] p-6 rounded-xl shadow-md flex flex-col justify-between min-h-[200px] overflow-hidden">
-          <div>
-            <img src={node.logo} alt={node.name} class="h-10 w-10 mb-4" />
-            <h3 class="text-lg font-semibold">{node.name}</h3>
-            <p class="text-sm text-gray-400">{node.role}</p>
-          </div>
-          <div class="mt-4 flex justify-between items-center">
-            <a href={node.url} target="_blank" rel="noopener noreferrer" class="text-sm text-blue-400 hover:underline truncate max-w-[80%]">
-              View
-            </a>
-            {node.status === "active" ? (
-              <span class="h-3 w-3 rounded-full bg-green-500 inline-block"></span>
-            ) : (
-              <span class="bg-gray-700 text-xs px-2 py-0.5 rounded-md">ENDED</span>
-            )}
+        <div class="bg-gray-100 dark:bg-[#1A1A1D] p-6 rounded-xl shadow-md min-h-[240px]">
+          <div class="h-full flex flex-col justify-between">
+            <div>
+              <img src={node.logo} alt={node.name} class="h-10 w-10 mb-4" />
+              <h3 class="text-lg font-semibold">{node.name}</h3>
+              <p class="text-sm text-gray-600 dark:text-gray-400">{node.role}</p>
+            </div>
+            <div class="mt-4 flex justify-between items-center">
+              <a href={node.url} target="_blank" rel="noopener noreferrer" class="text-sm text-blue-600 dark:text-blue-400 hover:underline truncate max-w-[80%]">
+                View
+              </a>
+              {node.status === "active" ? (
+                <span class="h-3 w-3 rounded-full bg-green-500 inline-block"></span>
+              ) : (
+                <span class="bg-gray-300 dark:bg-gray-700 text-xs px-2 py-0.5 rounded-md">ENDED</span>
+              )}
+            </div>
           </div>
         </div>
       ))}
