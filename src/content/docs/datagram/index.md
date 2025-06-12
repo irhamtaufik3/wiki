@@ -12,7 +12,7 @@ description: Guide install node datagram network
 
 ## Prepare Before Install Node
 1. Create akun  
-<a href="https://app.blockcast.network?referral-code=Mi5UWv" target="_blank" rel="noopener noreferrer">app.blockcast.network?referral-code=Mi5UWv</a>
+<a href="https://dashboard.datagram.network?ref=453104063" target="_blank" rel="noopener noreferrer">dashboard.datagram.network?ref=453104063</a>
 
 2. Simpan node key  
 <a href="https://dashboard.datagram.network/wallet?tab=licenses" target="_blank" rel="noopener noreferrer">dashboard.datagram.network/wallet?tab=licenses</a>
